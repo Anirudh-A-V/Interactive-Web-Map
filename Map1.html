@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_932dd55a4c331959992dabcff4121752 {
+                #map_d71e8917e4abd4bdeb3298c7ba9aef7d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_932dd55a4c331959992dabcff4121752" ></div>
+            <div class="folium-map" id="map_d71e8917e4abd4bdeb3298c7ba9aef7d" ></div>
         
 </body>
 <script>    
     
-            var map_932dd55a4c331959992dabcff4121752 = L.map(
-                "map_932dd55a4c331959992dabcff4121752",
+            var map_d71e8917e4abd4bdeb3298c7ba9aef7d = L.map(
+                "map_d71e8917e4abd4bdeb3298c7ba9aef7d",
                 {
-                    center: [8.546785, 76.905482],
+                    center: [23.036829466930804, 79.0364234261668],
                     crs: L.CRS.EPSG3857,
-                    zoom: 10,
+                    zoom: 6,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -55,21 +55,64 @@
 
         
     
-            var tile_layer_96f042af646154b66b4aa647f167c572 = L.tileLayer(
+            var tile_layer_a1b7903e9c7b6cfef8d0dfec67ad65ef = L.tileLayer(
                 "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_932dd55a4c331959992dabcff4121752);
+            ).addTo(map_d71e8917e4abd4bdeb3298c7ba9aef7d);
         
     
-            var marker_88f82a12c94eb3348b0243f47cff360b = L.marker(
-                [8.546785, 76.905482],
+            var feature_group_c058e5f59846d454056b0125cb073ad5 = L.featureGroup(
                 {}
-            ).addTo(map_932dd55a4c331959992dabcff4121752);
+            ).addTo(map_d71e8917e4abd4bdeb3298c7ba9aef7d);
         
     
-            var icon_ba3c3e73f50bc8bef4e92f02d2ea2d8f = L.AwesomeMarkers.icon(
+            var marker_108c45ac6b711052e11f505b216e521d = L.marker(
+                [8.546818512885398, 76.90552676576516],
+                {}
+            ).addTo(feature_group_c058e5f59846d454056b0125cb073ad5);
+        
+    
+            var icon_a3a62e1da6cab541742ff5a8c8a7a7d7 = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
             );
-            marker_88f82a12c94eb3348b0243f47cff360b.setIcon(icon_ba3c3e73f50bc8bef4e92f02d2ea2d8f);
+            marker_108c45ac6b711052e11f505b216e521d.setIcon(icon_a3a62e1da6cab541742ff5a8c8a7a7d7);
         
+    
+        var popup_8cf12e6de73b8cc3345e1b2a76eee252 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d68d051ee3de2351ad0be988ec246591 = $(`<div id="html_d68d051ee3de2351ad0be988ec246591" style="width: 100.0%; height: 100.0%;">College front</div>`)[0];
+            popup_8cf12e6de73b8cc3345e1b2a76eee252.setContent(html_d68d051ee3de2351ad0be988ec246591);
+        
+
+        marker_108c45ac6b711052e11f505b216e521d.bindPopup(popup_8cf12e6de73b8cc3345e1b2a76eee252)
+        ;
+
+        
+    
+    
+            var marker_fb3cc85a900e88d8f19e598c30834d8c = L.marker(
+                [8.542525203744514, 76.90451714249187],
+                {}
+            ).addTo(feature_group_c058e5f59846d454056b0125cb073ad5);
+        
+    
+            var icon_78d742e205e9859a7a2660c1bbf31352 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fb3cc85a900e88d8f19e598c30834d8c.setIcon(icon_78d742e205e9859a7a2660c1bbf31352);
+        
+    
+        var popup_59130c58609600851585eaeec83a8021 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_582c625f2ae9ac7e9871f235e394281d = $(`<div id="html_582c625f2ae9ac7e9871f235e394281d" style="width: 100.0%; height: 100.0%;">Students Shelter</div>`)[0];
+            popup_59130c58609600851585eaeec83a8021.setContent(html_582c625f2ae9ac7e9871f235e394281d);
+        
+
+        marker_fb3cc85a900e88d8f19e598c30834d8c.bindPopup(popup_59130c58609600851585eaeec83a8021)
+        ;
+
+        
+    
 </script>
