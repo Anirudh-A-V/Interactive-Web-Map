@@ -10,9 +10,9 @@ An Interactive map of all major dams of India along with the population data usi
 
 2. Run the file map1.py</br>
     In Windows :</br>
-        `python map1.py</br>
+        `python map1.py`</br>
     In Linux :</br>
-        `py map1.py</br>
+        `py map1.py`
 
 3. Open the .html file (i.e. Map1.html) in your web browser
 
