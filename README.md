@@ -1,4 +1,4 @@
-# Interactive-Population-map-kerala
+# Interactive-Web-Map
 
 An Interactive map of all major dams of India along with the population data using Folium
 
