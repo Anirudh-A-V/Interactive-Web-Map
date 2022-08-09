@@ -5,8 +5,8 @@ An Interactive map of all major dams of India along with the population data usi
 ## How to use
 
 1. Install Folium and Pandas to your system.
-    `pip install pandas
-    `pip install folium
+    `pip install pandas`
+    `pip install folium`
 
 2. Run the file map1.py</br>
     In Windows :</br>
