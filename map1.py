@@ -45,4 +45,4 @@ for i in range(dams.shape[0]):
         )
     )
 
-map.save("Map1.html")
+map.save("index.html")
