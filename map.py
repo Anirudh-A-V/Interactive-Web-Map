@@ -1,8 +1,6 @@
 import folium
 import pandas as pd
 import numpy as np
-import geopandas as gpd
-import pyogrio as pyg
 
 dams = pd.read_csv("./data/dam.csv", encoding="latin1")
 rainfall = pd.read_csv("./data/rainfall.csv", encoding="latin1")
