@@ -1,10 +1,7 @@
 import folium
 import pandas as pd
-import numpy as np
 
 dams = pd.read_csv("./data/dam.csv", encoding="latin1")
-rainfall = pd.read_csv("./data/rainfall.csv", encoding="latin1")
-
 
 map = folium.Map(location=[23.036829466930804, 79.0364234261668], zoom_start=5)
 
